@@ -9,7 +9,7 @@
   ],
   "require": {
     "guzzlehttp/guzzle": "^6.0",
-    "nesbot/carbon": "1.22.1 as 2.41.0",
+    "nesbot/carbon": "1.22.1",
     "ext-json": "*"
   },
   "require-dev": {
