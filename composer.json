@@ -1,14 +1,14 @@
 {
-  "name": "imdhemy/appstore-iap",
+  "name": "leehwui/appstore-iap",
   "description": "PHP Appstore In-App Purchase implementation",
   "authors": [
     {
-      "name": "imdhemy",
-      "email": "imdhemy@gmail.com"
+      "name": "leehwui",
+      "email": "leehwui@gmail.com"
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "^6.0|^7.0",
+    "guzzlehttp/guzzle": "^6.0",
     "nesbot/carbon": "^2.41",
     "ext-json": "*"
   },
