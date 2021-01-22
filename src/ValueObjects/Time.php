@@ -20,7 +20,8 @@ class Time
      */
     public function __construct(int $timestampMs)
     {
-        $this->carbon = Carbon::createFromTimestampMs($timestampMs);
+        //$this->carbon = Carbon::createFromTimestampMs($timestampMs);
+        $this->carbon = Carbon::createFromTimestamp($timestampMs/1000);
     }
 
     /**

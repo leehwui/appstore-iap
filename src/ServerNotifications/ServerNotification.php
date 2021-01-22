@@ -95,7 +95,7 @@ class ServerNotification
     /**
      * @return Time|null
      */
-    public function getAutoRenewStatusChangeDate(): ?Time
+    public function getAutoRenewStatusChangeDate(): Time
     {
         return $this->autoRenewStatusChangeDate;
     }

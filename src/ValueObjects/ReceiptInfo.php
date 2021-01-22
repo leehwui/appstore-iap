@@ -117,7 +117,7 @@ final class ReceiptInfo
     /**
      * @return Time|null
      */
-    public function getExpiresDate(): ?Time
+    public function getExpiresDate(): Time
     {
         TODO:// Throw product does not have an expiration date exception
         return $this->expiresDate;
@@ -190,7 +190,7 @@ final class ReceiptInfo
     /**
      * @return string|null
      */
-    public function getSubscriptionGroupIdentifier(): ?string
+    public function getSubscriptionGroupIdentifier(): string
     {
         return $this->subscriptionGroupIdentifier;
     }
@@ -206,7 +206,7 @@ final class ReceiptInfo
     /**
      * @return string|null
      */
-    public function getWebOrderLineItemId(): ?string
+    public function getWebOrderLineItemId(): string
     {
         return $this->webOrderLineItemId;
     }
@@ -214,7 +214,7 @@ final class ReceiptInfo
     /**
      * @return Time|null
      */
-    public function getCancellationDate(): ?Time
+    public function getCancellationDate(): Time
     {
         return $this->cancellationDate;
     }
@@ -230,7 +230,7 @@ final class ReceiptInfo
     /**
      * @return string|null
      */
-    public function getPromotionalOfferId(): ?string
+    public function getPromotionalOfferId(): string
     {
         return $this->promotionalOfferId;
     }
@@ -238,7 +238,7 @@ final class ReceiptInfo
     /**
      * @return string|null
      */
-    public function getOfferCodeRefName(): ?string
+    public function getOfferCodeRefName(): string
     {
         return $this->offerCodeRefName;
     }

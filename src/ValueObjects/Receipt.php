@@ -147,7 +147,7 @@ final class Receipt
     /**
      * @return Time|null
      */
-    public function getExpirationDate(): ?Time
+    public function getExpirationDate(): Time
     {
         return $this->expirationDate;
     }
@@ -179,7 +179,7 @@ final class Receipt
     /**
      * @return Time|null
      */
-    public function getPreOrderDate(): ?Time
+    public function getPreOrderDate(): Time
     {
         return $this->preOrderDate;
     }

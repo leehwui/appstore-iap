@@ -123,7 +123,7 @@ final class PendingRenewal
     /**
      * @return Time|null
      */
-    public function getGracePeriodExpiresDate(): ?Time
+    public function getGracePeriodExpiresDate(): Time
     {
         return $this->gracePeriodExpiresDate;
     }
@@ -131,7 +131,7 @@ final class PendingRenewal
     /**
      * @return string|null
      */
-    public function getOfferCodeRefName(): ?string
+    public function getOfferCodeRefName(): string
     {
         return $this->offerCodeRefName;
     }
@@ -139,7 +139,7 @@ final class PendingRenewal
     /**
      * @return ExpirationIntent|null
      */
-    public function getExpirationIntent(): ?ExpirationIntent
+    public function getExpirationIntent(): ExpirationIntent
     {
         return $this->expirationIntent;
     }

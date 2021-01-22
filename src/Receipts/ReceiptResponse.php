@@ -86,7 +86,7 @@ class ReceiptResponse
     /**
      * @return bool|null
      */
-    public function getIsRetryable(): ?bool
+    public function getIsRetryable(): bool
     {
         return $this->isRetryable;
     }
@@ -118,7 +118,7 @@ class ReceiptResponse
     /**
      * @return Receipt|null
      */
-    public function getReceipt(): ?Receipt
+    public function getReceipt(): Receipt
     {
         return $this->receipt;
     }
